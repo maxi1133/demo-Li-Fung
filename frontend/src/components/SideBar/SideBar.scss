@@ -1,0 +1,26 @@
+.side-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-left: 1px solid;
+  height: 100%;
+  width: 500px;
+
+  ul {
+    // padding: 10px;
+
+    li {
+      display: list-item;
+      padding-top: 10px;
+
+      .header {
+        min-width: 120px;
+      }
+
+      .content {
+        margin-left: 20px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

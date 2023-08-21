@@ -1,0 +1,60 @@
+.custom-table {
+  border-spacing: 0;
+  margin-top: 5px;
+
+  thead {
+    tr {
+      th {
+        border-top: 1px solid;
+        border-left: 1px solid;
+        text-align: left;
+        padding: 5px;
+        width: 200px;
+        text-transform: uppercase;
+      }
+
+      th.fit-value-area {
+        width: fit-content;
+      }
+
+      th:last-child {
+        border-right: 1px solid;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        border-top: 1px solid;
+        border-left: 1px solid;
+        padding: 5px;
+      }
+
+      input[type = checkbox] {
+        cursor: pointer;
+      }
+
+      td:last-child {
+        border-right: 1px solid;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    tr.active {
+      background-color: antiquewhite;
+    }
+
+    tr:last-child {
+      td {
+        border-bottom: 1px solid;
+      }
+    }
+
+    tr:hover {
+      background-color: rgb(223, 235, 245);
+      cursor: pointer;
+    }
+  }
+}
